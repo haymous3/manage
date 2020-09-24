@@ -1,0 +1,144 @@
+.navigations{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+body{
+    cursor: cell;
+    font-family: metrophobic;
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-list ul li{
+    padding: 30px 10px;  
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-button button{
+    padding: 10px 20px;
+    background-color: #f98f75;
+    color: #fff;
+    border: 1px solid #f98f75;
+    border-radius: 25px;
+}
+.first-section-image img{
+    position: relative;
+    height: 386px;
+    left: 438px;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 3px #000;
+}
+.box{
+    animation-name: mybox;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes mybox{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    50%{
+        top:20px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+.background-img{
+    background-image: url(../image/bg-tablet-pattern.svg);
+    width: 767px;
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -184px;
+    z-index: -1;
+}
+.first-section-text{
+    position: relative;
+    left: 106px;
+    width: 470px;
+    animation-name: first-sec;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    position: relative;
+}
+.first-section-text h1{
+    font-size:45px;
+}
+.first-section-text p{
+    font-size: 18px;
+}
+@keyframes first-sec{
+    0%{
+        left: -20em;
+    }
+    100%{
+        left: 115px;
+    }
+
+}
+
+.adewale{
+    animation-name: amos;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate-reverse;
+}
+@keyframes amos{
+    0%{
+        left: 500px;
+        top: 0;
+    }
+    25%{
+        top: 100px;
+        left: 500px;
+
+    }
+    50%{
+        top:100px; 
+        left: 260px;
+
+    }
+    75%{
+        top: 0;
+        left: 260px;
+    }
+    100%{
+        left: 500px;
+        top: 0;
+    }
+}
+.first-sec-btn button{
+    padding: 10px 20px;
+    background-color: #f98f75;
+    color: #fff;
+    border: 1px solid #f98f75;
+    border-radius: 25px;
+}
+.second-section{
+    display: flex;
+    justify-content: space-around;    
+}
+.second-sec-col{
+    display: flex;
+}
+.second-sec-btn button{
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid #f98f75;
+    background-color: #f98f75;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+

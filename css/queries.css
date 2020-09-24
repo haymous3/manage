@@ -1,0 +1,136 @@
+/* big tablets to 1200px(width smaller than the 1140px row*/
+@media only screen and (max-width:1200px){
+    .background-img {
+        background-image: url(../image/bg-tablet-pattern.svg);
+        width: 889px;
+        height: 951px;
+        left: 67px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -289px;
+        z-index: -1;
+        margin: 0 auto;
+    }
+    .first-section-text {
+        position: relative;
+        top: -40em;
+        font-size: 24px;
+        text-align: center;
+    }
+    .first-section-image img {
+        position: relative;
+        height: 818px;
+        width: 100%;
+        top: -57em;
+        left: 0;
+    }
+    .first-section {
+        flex-direction: column-reverse;
+    }
+    .first-section-text {
+        position: relative;
+        top: -40em;
+        font-size: 24px;
+        text-align: center;
+        width: 79%;
+    }
+    .first-section-text h1{
+        font-size: 98px;
+    }
+    .adewale{
+        animation-duration: 2s;
+    }
+    @keyframes amos{
+        0%{  
+            top: -60em;
+        }
+    }
+    .second-section {
+        flex-direction: column;
+        margin-top: -50em;
+        
+    }
+    .sec-sec{
+        font-size: 96px;
+        text-align: center;
+    }
+    .second-sec-text h1{
+        font-size: 50px;
+        margin: 24px 35px;
+    }
+    .second-sec-text p{
+        font-size: 32px;
+        margin: 0 27px;
+    }
+}
+/*small tablets to big tablets: from 768px to 1023*/
+@media only screen and (max-width:1023px){
+    .background-img {
+        background-image: url(../image/bg-tablet-pattern.svg);
+        width: 842px;
+        height: 951px;
+        left: 67px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -289px;
+        z-index: -1;
+        margin: 0 auto;
+    }
+    .first-section-image img {
+        position: relative;
+        height: 818px;
+        width: 100%;
+        top: -57em;
+        left: 0;
+    }
+    .first-section {
+        flex-direction: column-reverse;
+    }
+    .first-section-text {
+        position: relative;
+        top: -40em;
+        font-size: 24px;
+        text-align: center;
+        width: 79%;
+    }
+    .first-section-text h1{
+        font-size: 98px;
+    }
+    .adewale{
+        animation-duration: 2s;
+    }
+    @keyframes amos{
+        0%{  
+            top: -60em;
+        }
+    }
+    .second-section {
+        flex-direction: column;
+        margin-top: -50em;
+        
+    }
+    .sec-sec{
+        font-size: 96px;
+        text-align: center;
+    }
+    .second-sec-text h1{
+        font-size: 50px;
+        margin: 24px 35px;
+    }
+    .second-sec-text p{
+        font-size: 32px;
+        margin: 0 27px;
+    }
+
+    
+}
+/* samll phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+}
